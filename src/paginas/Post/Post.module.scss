@@ -1,0 +1,88 @@
+.post__container h3,
+.post__container h4,
+.post__container h5,
+.post__container h6 {
+    font-family: var(--fonte-secundaria);
+}
+
+.post__container h3 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.post__container h4 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.post__container p {
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.post__container a {
+    color: #0493d4;
+    text-decoration: underline;
+}
+
+.post__container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.post__container ul {
+    font-size: 1.5rem;
+}
+
+.post__container ul > li {
+    margin-bottom: 1rem;
+    list-style: disc;
+}
+
+.post__container pre,
+.post__container blockquote {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+
+.post__container pre {
+    overflow-x: auto;
+}
+
+.tituloOutrosPosts {
+    font-family: var(--fonte-secundaria);
+    color: #363031;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.postsRecomendados {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1100px) {
+    .post__container p {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 744px) {
+    .post__container h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .post__container p {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+}
